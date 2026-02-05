@@ -2,3 +2,5 @@ Daily Progress Logs:
 Day 1:
 -We are currently running the EDA process on the dataset and looking at the modelling tips. We suspect that for businesses open less than 20 months, their FICO score may matter a lot more than businesses open for more than 20 months.
 -Preliminary EDA suggests that the stress predictor may not be useful in our analysis.
+-We are interested in defining a new variable (Num_Delinquent/Num_CreditLines) to get a ratio of delinquent credit lines to total credit lines
+-Creating indicator/binary variables for the NACIS and CorpStructure data
