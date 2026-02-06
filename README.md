@@ -36,14 +36,15 @@ A collection of Stat 628 assignments
 
 1. PRSM (y)
    - 2\*{amount repaid at 6 months}/{total amount owed}
+   - Should >= 0.
    - Expected to be 1. > 1 indicates ahead of schedule, and <1 indicates behind.
    - “discretizing” numerical predictors?
 
 ## Possible Predictor Variable
 
 2. FICO
-   - Ranges 300~850.
-   - Poor (300~579), fair(580~669), good(670~739), very good(740~799), excellent(800~850).
+   - Ranges 300\~850.
+   - Poor (300\~579), fair(580\~669), good(670\~739), very good(740\~799), excellent(800~850).
    - Information contained in the FICO score may be relevant when dealing with certain borrowers but not others?
 3. TotalAmtOwed
    - load + interest
@@ -65,6 +66,7 @@ A collection of Stat 628 assignments
    - Corporations may be slower than other businesses at paying back their loans?
 10. NAICS
     - 6-digit NAICS code. The North American Industry Classification System provides a 5- or 6-digit code that classifies different industries. For instance, the code for universities and colleges is 611310. You can look-up individual codes at this link.
+    - https://www.census.gov/naics/ tells us that the first two digits indicates the industry of the biz.
 11. Months
     - The number of months for which the business has been open.
     - Business open longer are more credit-worthy? After a certain point, an additional month of operation has a diminished predictive effect?
