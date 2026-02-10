@@ -2,11 +2,7 @@
 .gitignore
 
 # ignore data
-installment2_id03.csv
-installment2_evaluation_data.csv
-train_df.csv
-dev_df.csv
-test_df.csv
+*.csv
 
 # ignore task description
 installment2_problem.pdf

@@ -2,10 +2,14 @@
 
 A collection of Stat 628 assignments
 
+# Presentation
+
+6 and a half minute presentation.
+
 # Notes for coding
 
 1. Tasks:
-   - predict PRSM with multiple regression model
+   - predict PRSM with multiple regression model with CIs
    - _[Executive summary]_ include factors drive substantial variation in PRSM (esp. a statistically discernible effect but not a practically relevant (significant) one)
    - _[Executive summary]_ introduce a baseline potential borrower by selecting values of each predictor in your final model
    - _[Executive summary]_ include the main drivers of PRSM and indicate which are associated with greater or lesser credit risk relative to the baseline
